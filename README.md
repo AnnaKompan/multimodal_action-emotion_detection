@@ -1,4 +1,4 @@
-# multimodal_action-emotion_detection
+# Multimodal Sign Language & Emotion Recogntion
 
 Student ID: 313540009 
 
