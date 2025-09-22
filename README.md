@@ -10,4 +10,4 @@ MP Holistic for sign language and emotion recognition
 ### Install Dependencies
 ### Training and Validation Loss Curve
 ### Test in real time
-![Real time test for 3 sentences](./real_time.png)
+![Real time test for 3 sentences](./real_time.jpg)
