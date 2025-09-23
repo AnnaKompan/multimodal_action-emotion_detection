@@ -2,7 +2,7 @@
 
 Student ID: 313540009 
 
-Name: Anna Kompan (安娜)
+Name: Anna Kompan 安娜
 
 ### Introduction
 A multimodal recognition system using MediaPipe Holistic (MP Holistic) for real-time tracking of body landmarks: face, left/right hands, body pose and recognizing sentence (sign language) and emotion of person showing sign, &&**combine prediction from two models and give one prediction on one frame.**
