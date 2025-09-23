@@ -3,15 +3,7 @@
 Student ID: 313540009 
 
 Name: Anna Kompan (安娜)
-The system is designed for assistive communication tools (e.g., sign language to text/speech) and human–computer interaction (emotion-aware systems).
 
-Contribution
-
-This research combines lightweight real-time landmark extraction (via MP Holistic) with sequence learning models to address two socially impactful problems:
-
-Bridging the communication gap for sign language users.
-
-Enhancing affective computing by recognizing emotions through multimodal cues
 ### Introduction
 A multimodal recognition system using MediaPipe Holistic (MP Holistic) for real-time tracking of body landmarks: face, left/right hands, body pose and recognizing sentence (sign language) and emotion of person showing sign, &&**combine prediction from two models and give one prediction on one frame.**
 
