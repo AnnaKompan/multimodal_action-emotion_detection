@@ -44,3 +44,26 @@ history = model.fit(
     validation_split=0.1,   # 10% used as validation
     callbacks=[tb_callback, early_stop, reduce_lr]
 )
+
+
+sequences, labels = [], []
+
+for action in actions:
+    for sequence in range(no_sequences):
+        window = []
+        for frame_num in range(sequence_length):
+            res = np.load(os.path.join(DATA_PATH, action, str(sequence), f"{frame_num}.npy"))
+            window.append(res)
+
+        # Always keep the original
+        sequences.append(window)
+        labels.append(label_map[action])
+
+        # Now also add an augmented copy
+        aug_window = []
+        for frame in window:
+            aug_window.append(augment_landmarks(frame))  # always apply augmentation
+        aug_window = augment_sequence(aug_window)
+        
+        sequences.append(aug_window)
+        labels.append(label_map[action])
