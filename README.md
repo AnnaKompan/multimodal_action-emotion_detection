@@ -16,7 +16,7 @@ The system tracks arms, face, body movements
 - 21 per hand landmarks
 
 Example of MP Holistic Landmarks
-[!MP Holistic Example](./mp_holistic.jpg)
+![MP Holistic Example](./mp_holistic.jpg)
 Source: GeekforGeeks
 
 2. Emotion Recognition
