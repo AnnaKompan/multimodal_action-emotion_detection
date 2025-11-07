@@ -31,5 +31,8 @@ The system main goal is:
 
 ### Install Dependencies
 ### Training and Validation Loss Curve
+![accuracy_loss](./loss_accuracy.jpg)
+### Model
+![model](./model.jpg)
 ### Test in real time
 ![Real time test for 3 sentences](./real_time.jpg)
