@@ -1,0 +1,2 @@
+1. Train my model for emotion recognition (correct model and augmentations) add logs tensorboard
+2. Fix pretrained for mp prediction in real-time
