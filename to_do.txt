@@ -1,2 +1,16 @@
-1. Train my model for emotion recognition (correct model and augmentations) add logs tensorboard
-2. Fix pretrained for mp prediction in real-time
+Compare classical CNN on raw images vs. MLP on keypoints extracted via MP Holistic (preprocess)
+to demonstrate frugal learning: 
+- reduced computational cost
+- faster training
+- similar or acceptable accuracy
+
+Compare both by:
+- training time
+- GPU usage
+- model size (MB)
+- inference time per frame as metrics
+
+AffectNet dataset rather then FER 2013, cuz RGB images, higher resolution
+~1,000,000
+
+FER2025

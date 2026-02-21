@@ -1,0 +1,23 @@
+# Datasets
+
+dataset/
+MP_Data/
+MP_Data_Emotions/
+rgb_dataset/
+
+# Logs
+Logs/
+Logs_pretrained/
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+
+# Environments
+.env/
+venv/
+env/
