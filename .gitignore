@@ -4,6 +4,7 @@ dataset/
 MP_Data/
 MP_Data_Emotions/
 rgb_dataset/
+keypoints_dataset/
 
 # Logs
 Logs/
